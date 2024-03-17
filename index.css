@@ -1,4 +1,6 @@
-
+/* #hide{
+  display: none;
+} */
 #cssmenu,
 #cssmenu ul,
 #cssmenu li,
@@ -196,7 +198,7 @@ nav a {
 }
 
 
-.announcements{
+.announcements,.announcements1{
   width: 85%;
   background-color: #ffffff;
   height: 350px;
@@ -288,7 +290,7 @@ footer {
 }
 
 
-.resultbox{
+.resultbox,.resultbox1{
   width: 55%;
   background-color: #ffffff;
   height: 250px;
@@ -341,7 +343,7 @@ footer {
   width: 80%;
   flex-wrap: wrap;
 }
-.allmarks{
+.allmarks,.allmarks1{
   display: none;
   flex-wrap: wrap;
 }
@@ -360,6 +362,6 @@ nav li{
   width: 180px;
 }
 nav{
-  width: 200px;
+  width: 200px !important;
 }
 }
