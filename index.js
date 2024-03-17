@@ -34,7 +34,7 @@ function page(){
     mainimage.classList.toggle("hide")
     
   }
-  if(username.value==="23K91A04M2" && password.value==="23K91A04M2"){
+  else if(username.value==="23K91A04M2" && password.value==="23K91A04M2"){
     image1.classList.toggle("hide");
     one.classList.add("hide");
     mainimage.classList.toggle("hide")
@@ -43,13 +43,15 @@ function page(){
     alert("Server Error!!!");
   }
 };
+// me
+
 examarks.addEventListener("click",()=>{
   announcements.classList.add("hide");
   resultbox.classList.remove("hide");
 })
-showbtn1.addEventListener("click",()=>{
+showbtn.addEventListener("click",()=>{
   // allmarks.classList.("hide");
-  allmarks1.style.display="flex"
+  allmarks.style.display="flex";
 });
 
 
@@ -60,8 +62,7 @@ examarks1.addEventListener("click",()=>{
 })
 showbtn1.addEventListener("click",()=>{
   // allmarks.classList.("hide");
-  allmarks1.style.display="flex"
+  allmarks1.style.display="flex";
 });
 
 
-// second
