@@ -30,5 +30,6 @@ examarks.addEventListener("click",()=>{
   resultbox.classList.remove("hide");
 })
 showbtn.addEventListener("click",()=>{
-  allmarks.classList.toggle("hide");
+  // allmarks.classList.("hide");
+  allmarks.style.display="flex"
 });
