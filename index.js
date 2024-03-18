@@ -61,6 +61,10 @@ function page(){
     unhide();
     take7();
   }
+  else if(username.value==="23K91A04G9" && password.value==="23K91A04G9"){
+    unhide();
+    take8();
+  }
   else{
     alert("Server Error!!!");
   }
@@ -161,6 +165,17 @@ pass:"pass",
 image:"images/studentPhoto (1).jpeg"
 
 };
+const student8details={
+  name:"EMUNNALURI HITESH KUMAR ",
+rollno:"23K91A04G9",
+m1:42,
+phy:28,
+bee:18,
+c:43,
+pass:"FAIL",
+image:"images/studentPhoto (7).jpeg"
+
+};
 // console.log(student1details)
 function take1(){
   // alert("jhi")
@@ -244,6 +259,17 @@ function take7(){
   c.innerText=student7details.c;
   pass.innerText=student7details.pass;
   studentimg.src=student7details.image;
+
+};
+function take8(){
+  Name.innerText=student8details.name;
+  htno.innerText=student8details.rollno;
+  m1.innerText=student8details.m1;
+  phy.innerText=student8details.phy;
+  bee.innerText=student8details.bee;
+  c.innerText=student8details.c;
+  pass.innerText=student8details.pass;
+  studentimg.src=student8details.image;
 
 };
 
