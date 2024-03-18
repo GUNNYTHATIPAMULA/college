@@ -225,7 +225,7 @@ function take6(){
   bee.innerText=student6details.bee;
   c.innerText=student6details.c;
   pass.innerText=student6details.pass;
-  studentimg.src=student7details.image;
+  studentimg.src=student6details.image;
 
 };
 function take7(){
