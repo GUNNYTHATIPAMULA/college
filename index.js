@@ -21,6 +21,7 @@ let bee=document.querySelector(".bee");
 let c=document.querySelector(".c");
 let pass=document.querySelector(".pass");
 let studentimg=document.querySelector(".studentimg")
+let tmarks=document.querySelector(".tmarks")
 
 
 function unhide(){
@@ -85,8 +86,11 @@ rollno:"23K91A04N9",
 m1:56,
 phy:50,
 bee:60,
-c:65,
-image:"images/studentPhoto.jpeg"
+c:60,
+image:"images/studentPhoto.jpeg",
+pass:"pass",
+
+tmarks:`${student1details.bee+student1details.c+student1details.phy+student1details.m1} /240`
 
 };
 const student2details={
@@ -95,16 +99,19 @@ rollno:"23K91A04N5",
 m1:56,
 phy:50,
 bee:60,
-c:65,
+c:55,
 pass:"pass",
-image:"images/studentPhoto (2).jpeg"
+
+image:"images/studentPhoto (2).jpeg",
+// tmarks:"${student1details.bee+student1details.c+student1details.phy+student1details.m1}"/240
+
 };
 const student3details={
   name:"PEDDI GOPICHAND",
 rollno:"23K91A04K3",
 m1:32,
 phy:40,
-bee:20,
+bee:19,
 c:45,
 pass:"Fail",
 image:"images/studentPhoto (3).jpeg",
@@ -113,10 +120,10 @@ image:"images/studentPhoto (3).jpeg",
 const student4details={
   name:"POSHABOINA VEERENDRA ",
 rollno:"23K91A04L1",
-m1:56,
-phy:50,
-bee:60,
-c:65,
+m1:46,
+phy:30,
+bee:40,
+c:28,
 pass:"pass",
 image:"images/studentPhoto (4).jpeg",
 
@@ -128,17 +135,17 @@ m1:30,
 phy:43,
 bee:45,
 c:50,
-pass:"Fail",
+pass:"Pass",
 image:"images/studentPhoto (5).jpeg",
 
 };
 const student6details={
   name:"	YARRANKI VAMSI  ",
 rollno:"23K91A04R1",
-m1:56,
-phy:50,
-bee:60,
-c:65,
+m1:29,
+phy:39,
+bee:30,
+c:45,
 pass:"pass",
 image:"images/studentPhoto (6).jpeg",
 
@@ -147,9 +154,9 @@ const student7details={
   name:"SHAIK AFSAR ",
 rollno:"23K91A04M2",
 m1:42,
-phy:50,
-bee:60,
-c:65,
+phy:28,
+bee:40,
+c:43,
 pass:"pass",
 image:"images/studentPhoto (1).jpeg"
 
@@ -239,3 +246,5 @@ function take7(){
   studentimg.src=student7details.image;
 
 };
+
+console.log(`${student1details.bee+student1details.c+student1details.phy+student1details.m1} /240`);
