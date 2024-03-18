@@ -61,7 +61,7 @@ function page(){
     unhide();
     take7();
   }
-  else if(username.value==="23K91A04G9" && password.value==="23K91A04G9"){
+  else if(username.value==="23K91A04G6" && password.value==="23K91A04G6"){
     unhide();
     take8();
   }
@@ -166,8 +166,8 @@ image:"images/studentPhoto (1).jpeg"
 
 };
 const student8details={
-  name:"EMUNNALURI HITESH KUMAR ",
-rollno:"23K91A04G9",
+  name:"MOHAMMED SARHAN UDDIN  ",
+rollno:"23K91A04G6",
 m1:42,
 phy:28,
 bee:18,
