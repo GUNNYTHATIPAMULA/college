@@ -276,9 +276,10 @@ footer {
 #para{
   margin-bottom: 0;
 }
-#studentimg{
+.studentimg{
   height: 100px;
   display: inline;
+  margin-right: 10px;
 }
 .usersection{
   width: 78px;
