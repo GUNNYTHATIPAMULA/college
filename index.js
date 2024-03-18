@@ -90,7 +90,7 @@ c:60,
 image:"images/studentPhoto.jpeg",
 pass:"pass",
 
-tmarks:`${student1details.bee+student1details.c+student1details.phy+student1details.m1} /240`
+// tmarks:`${student1details.bee+student1details.c+student1details.phy+student1details.m1} /240`
 
 };
 const student2details={
